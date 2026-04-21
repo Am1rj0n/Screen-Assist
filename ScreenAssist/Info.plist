@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Hide from Dock — purely a floating overlay + menu bar app -->
+    <key>LSUIElement</key>
+    <true/>
+
+    <!-- Screen Recording usage description shown in the system dialog -->
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>ScreenAssist captures your screen only when you press the Capture button or use ⌘⇧C. No background monitoring or recording ever occurs.</string>
+
+    <!-- App metadata -->
+    <key>CFBundleName</key>
+    <string>ScreenAssist</string>
+    <key>CFBundleDisplayName</key>
+    <string>ScreenAssist</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.screenassist.app</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleExecutable</key>
+    <string>ScreenAssist</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>LSMinimumSystemVersion</key>
+    <string>15.0</string>
+    <!-- Hide from Cmd+Tab switcher -->
+    <key>LSUIElement</key>
+    <true/>
+</dict>
+</plist>
