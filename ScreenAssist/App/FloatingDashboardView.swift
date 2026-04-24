@@ -568,7 +568,7 @@ struct FloatingDashboardView: View {
 
             state.status = "Asking \(state.provider.rawValue)..."
             let question = state.prompt.isEmpty
-                ? "Answer whats on the screen. If multiple choice, choose the correct option."
+                ? "what do you see on the screen and if theres something needed to be solved, do it."
                 : state.prompt
 
             state.response = try await ai.ask(

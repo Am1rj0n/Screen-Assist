@@ -213,3 +213,27 @@ ScreenAssist/
 ├── Info.plist                       — Hides dock icon, permissions
 └── ScreenAssist.entitlements        — Network + no-sandbox config
 ```
+
+---
+
+## Command Line Interface (TerminalAssist Tool)
+
+We've added a new CLI version of the tool (codenamed `TA`) that allows you to trigger captures and set keys directly from your terminal.
+
+### Installation
+
+Run the secure installer script from the root of the project:
+
+```bash
+./scripts/install.sh --tool TA
+```
+
+The script will safely compile the CLI and install it to `/usr/local/bin` (or a local `.bin` folder if permissions are restricted).
+
+### Usage
+
+```bash
+TA capture         # Capture screen and run AI analysis
+TA key set <key>   # Set your API key securely
+```
+
