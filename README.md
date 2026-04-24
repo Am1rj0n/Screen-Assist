@@ -20,7 +20,7 @@ Supports **OpenAI (ChatGPT)**, **Anthropic Claude**, and **Google Gemini**.
 
 | Item | Requirement |
 |------|-------------|
-| macOS | 13.0 Ventura or later |
+| macOS | 15.0 Sequoia or later |
 | Xcode | 15 or later (free from App Store) |
 | API key | At least one from OpenAI / Claude / Gemini |
 
